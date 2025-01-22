@@ -1,0 +1,393 @@
+@media (max-width: 810px) {
+
+  /* HERO */
+
+  .hero__container {
+    flex-direction: column-reverse;
+  }
+
+   .hero__right {
+    background-image: none;
+    width: 100%;
+   }
+
+   /* DINER */
+
+   .diner__card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* WEEK */
+
+  .week__card {
+    width: calc((100% - (var(--gap) * 3)) / 3);
+  }
+
+  /* MENU */
+
+  .menu__left {
+    width: 80%;
+    padding: 15px 100px;
+  }
+
+  .menu__img-1 {
+    right: 0;
+  }
+
+  .menu__img-2 {
+    right: 0;
+  }
+
+  /* ABOUT */
+
+  .about__container {
+    flex-wrap: wrap;
+  }
+
+  .about__left {
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+  }
+
+  .about__right {
+    gap: 30px;
+    width: 100%;
+  }
+
+  /* QUIZ */
+
+  .quiz__container {
+      flex-direction: column;
+      padding-right: 180px;
+  }
+
+  .quiz__img-1 {
+    left: 64%;
+    bottom: 0%;
+  }
+
+  .quiz__img-2 {
+    left: 74%;
+    bottom: 0%;
+  }
+
+  /* CATERING */
+
+  .catering__descr {
+    gap: 20px;
+  }
+
+  .catering__left,
+ .catering__right {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #f1f3f9;
+  width: 100%;
+
+}
+
+  /* BANNER */
+
+  .banner__descr {
+    flex-direction: column-reverse;
+  }
+
+  .banner__left {
+    padding-top: 250px;
+    width: 100%;
+  }
+
+  .banner__img {
+    position: absolute;
+    top: 0;
+    left: 22%;
+  }
+}
+
+@media (max-width: 450px) {
+
+  /* GLOBAL */
+
+  .container {
+    margin-bottom: 20px;
+  }
+
+  .second-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 127%;
+  }
+
+  /* HERO */
+
+  .hero .container{
+    padding: 0;
+  }
+
+  .hero__left {
+    padding: 15px 24px;
+  }
+
+  .hero__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+  }
+
+  .hero__descr {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+  }
+
+  .hero__time {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .hero__tell {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 156%;
+    color: #da1f2a;
+  }
+
+  .hero__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .hero__btn {
+    width: 327px;
+    height: 42px;
+  }
+
+  /* DINER */
+
+  .diner__card {
+    width: 100%;
+  }
+
+  .card__btn {
+    width: 327px;
+    height: 42px;
+  }
+
+    /* WEEK */
+
+    .week__wrapper {
+      gap: 12px;
+    }
+
+    .week__card {
+      width: calc((100% - 24px) / 2);
+    }
+
+    /* MENU */
+
+    .menu__left {
+      width: 90%;
+      padding: 25px 25px 82px 25px;
+    }
+
+    .menu__text {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 112%;
+    }
+
+    .menu__btn {
+      border: 0.68px solid #6d778b;
+      border-radius: 4px;
+      padding: 6px 10px;
+      width: 99px;
+      height: 28px;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 138%;
+    }
+
+    /* ABOUT */
+
+    .about .container {
+      padding: 0;
+    }
+
+    .about__container {
+      justify-content: start;
+      gap: 24px;
+    }
+
+    .about__title {
+      margin-left: 24px;
+    }
+
+    .about__left {
+      background-position: top center;
+      height: 177px;
+      border-radius: 0;
+    }
+
+    .about__right {
+      gap: 20px;
+      width: 100%;
+      padding: 13px 24px;
+    }
+
+    .about__btn {
+      width: 327px;
+      height: 42px;
+    }
+
+    /* QUIZ */
+
+    .quiz__container {
+      padding: 20px 16px 245px 20px;
+    }
+
+    .quiz__descr {
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 8px;
+    }
+
+    .quiz__percent {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 133%;
+    }
+
+    .quiz__text {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 137%;
+    }
+
+    .quiz__img-1 {
+      left: 0;
+    }
+
+    .quiz__img-2 {
+      left: 42%;
+    }
+
+    /* EASY */
+
+    .easy__descr {
+      flex-direction: column;
+    }
+
+    .easy__block {
+      display: flex;
+      width: 100%;
+    }
+
+    .easy__img {
+      max-width: 50%;
+    }
+
+    .easy__txt {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 133%;
+    }
+
+    /* FAQ */
+
+    .faq__descr {
+      padding: 14px 20px;
+    }
+
+    .faq__dd-title {
+      line-height: 125%;
+    }
+
+    .faq__txt {
+      line-height: 143%
+    }
+
+    .faq__dd-title::after {
+      top: -25%;
+      right: -10px;
+    }
+
+      /* CATERING */
+
+    .catering__descr {
+      gap: 12px;
+    }
+
+    .catering__left {
+      background-image: url(../img/catering-1-mobile.png);
+
+    }
+
+    .catering__right {
+      background-image: url(../img/catering-2-mobile.png);
+    }
+
+    .catering__left, .catering__right {
+      padding: 24px 101px 95px 24px;
+  }
+
+  /* BANNER */
+
+  .banner__img {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    right: 0;
+  }
+
+  .banner__left {
+    gap: 8px;
+    padding: 250px 24px 24px 24px;
+  }
+
+  .banner__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+  }
+
+  .about__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+  .banner__cojntacts-left{
+    margin-bottom: 8px;
+  }
+
+  .banner__tel-rem {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+  }
+
+  .banner__tel{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    color: #da1f2a;
+  }
+
+  .banner__mail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: #da1f2a;
+  }
+
+  .banner__btn {
+    width: 279px;
+    height: 42px;
+  }
+}
